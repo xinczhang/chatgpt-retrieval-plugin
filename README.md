@@ -423,7 +423,7 @@ You can deploy your app to different cloud providers, depending on your preferen
 
 Render has a 1-click deploy option that automatically updates the url field in both files:
 
-[<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />](https://render.com/deploy?repo=https://github.com/render-examples/chatgpt-retrieval-plugin/tree/main)
+[<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />](https://render.com/deploy?repo=https://github.com/xinczhang/chatgpt-retrieval-plugin/tree/main)
 
 Before deploying your app, you might want to remove unused dependencies from your [pyproject.toml](/pyproject.toml) file to reduce the size of your app and improve its performance. Depending on the vector database provider you choose, you can remove the packages that are not needed for your specific provider. Refer to the respective documentation in the [`/docs/deployment/removing-unused-dependencies.md`](/docs/deployment/removing-unused-dependencies.md) file for information on removing unused dependencies for each provider.
 
