@@ -1,6 +1,6 @@
 {
   "schema_version": "v1",
-  "name_for_model": "Conference search retrieval",
+  "name_for_model": "Conference_search",
   "name_for_human": "Conference Search Plugin",
   "description_for_model": "Plugin for searching through cancer conferences to find answers to questions and retrieve relevant information. Use it whenever a user asks something that might be found in most recent cancer research.",
   "description_for_human": "Search through cancer conference documents.",
