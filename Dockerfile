@@ -25,7 +25,7 @@ RUN grep -rl "your-app-url.com" . | xargs sed -i "s/your-app-url.com/${RENDER_EX
 
 # The Blueprint file can inject the hostname into the environment, but source code expects http://hostname format
 ARG WEAVIATE_HOSTNAME
-ENV WEAVIATE_HOST=http://${WEAVIATE_HOSTNAME}
+ENV WEAVIATE_HOST=http://weaviate-lc42:8080
 
 # Render and Heroku use PORT, Azure App Services uses WEBSITES_PORT, Fly.io uses 8080 by default
 CMD ["sh", "-c", "uvicorn server.main:app --host 0.0.0.0 --port ${PORT:-${WEBSITES_PORT:-8080}}"]
